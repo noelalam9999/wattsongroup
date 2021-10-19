@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import LogoWhite from "../../../images/logo-white.png"
+import LogoWhite from "../../../images/logo.png"
 import IconImg1 from "../../../images/icon/contact/icon1.png"
 import IconImg2 from "../../../images/icon/contact/icon2.png"
 import IconImg3 from "../../../images/icon/contact/icon3.png"
@@ -22,7 +22,7 @@ class Footer1 extends Component{
 										</div>
 										<div className="icon-content">
 											<h5 className="ttr-tilte">Address</h5>
-											<p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
+											<p>R# 13/A, H # 27/1(3rd and 4th floor) Dhanmondi-1209, Dhaka</p>
 										</div>
 									</div>
 								</div>
@@ -33,24 +33,25 @@ class Footer1 extends Component{
 										</div>
 										<div className="icon-content">
 											<h5 className="ttr-tilte">Contact Number</h5>
-											<p>+001 123 456 790 <br/>(02) 3424 44 00</p>
+											<p>+88 02 55000740-3<br/>+8801841326226<br/>+8801841326219</p>
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-3 col-md-6 col-sm-6 m-sm-b30">
+								<div  className="col-lg-3 col-md-6 col-sm-6 m-sm-b30">
 									<div className="feature-container left footer-info-bx">
-										<div className="feature-lg text-white">
+										<div style={{width:"70px"}} className="feature-lg text-white">
 											<span className="icon-cell"><img src={IconImg2} alt=""/></span> 
 										</div>
-										<div className="icon-content">
+										<div  className="icon-content">
 											<h5 className="ttr-tilte">Email Address</h5>
-											<p>info@yourdomain.com <br/>example@support.com</p>
+											<p>wattson_engg1@yahoo.com{" "}
+<br/>wattson_engg2@yahoo.com{" "}<br/>hydrochemical.bd@gmail.com</p>
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-3 col-md-6 col-sm-6 text-left text-lg-right">
+								{/* <div className="col-lg-3 col-md-6 col-sm-6 text-left text-lg-right">
 									<Link to="get-in-touch" className="btn btn-long d-sm-inline-block">Get In Touch</Link>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="container">
@@ -59,11 +60,11 @@ class Footer1 extends Component{
 									<div className="widget footer_widget">
 										<h5 className="footer-title">Our Solutions</h5>
 										<ul>
-											<li><Link to="solution-material-science-and-engineering"><span>Engineering</span></Link></li>
-											<li><Link to="solution-oil-and-gas"><span>Petrolium & Gas</span></Link></li>
-											<li><Link to="solution-power-and-energy"><span>Power & Engergy</span></Link></li>
-											<li><Link to="solution-mechanical-engineering"><span>Mechanical Engineering</span></Link></li>
-											<li><Link to="solution-agricultural-engineering"><span>Agricultural Processing</span></Link></li>
+											<li><Link to="sow-hvac"><span>HVAC(Central Air Conditioning System)</span></Link></li>
+											<li><Link to="airconditioning"><span>Commercial Central Air Conditioning System.</span></Link></li>
+											<li><Link to="sow-pusandwichpanel"><span>PU Sandwich Panel Manufacturer</span></Link></li>
+											<li><Link to="sow-dehumidifier"><span>Variable Refrigerant Flow (VRF) System.</span></Link></li>
+											<li><Link to="sow-cogeneration"><span>Cogeneration, Chilling & Humidification plant.</span></Link></li>
 										</ul>
 									</div>
 								</div>
@@ -71,37 +72,33 @@ class Footer1 extends Component{
 									<div className="widget list-2">
 										<h5 className="footer-title">Company</h5>
 										<ul>
-											<li><Link to="index">Home</Link></li>
-											<li><Link to="about-1">About Us</Link></li>
-											<li><Link to="company-history">Company News</Link></li>
-											<li><Link to="projects-single-1">Projects</Link></li>
-											<li><Link to="case-study">Case Study</Link></li>
-											<li><Link to="faq-1">Faq's</Link></li>
-											<li><Link to="awards">Awards</Link></li>
-											<li><Link to="services-1">Services</Link></li>
-											<li><Link to="contact-1">Contact Us</Link></li>
-											<li><Link to="team">Out Team</Link></li>
+											<li><Link to="/">Home</Link></li>
+											<li><Link to="about-us">About Us</Link></li>
+											
+											<li><Link to="all-projects">Projects</Link></li>
+											
+											<li><Link to="gallery">Gallery</Link></li>
+											<li><Link to="wec">Wattson Engineering</Link></li>
+											<li><Link to="wep">Euro Panel Bangaldesh</Link></li>
+											<li><Link to="hydrochemical-bd">Hydro Chemical Bangladesh</Link></li>
+											
 										</ul>
 									</div>
 								</div>
 								<div className="col-12 col-lg-5 col-md-12 col-sm-12">
 									<div className="widget widget_info">
-										<h5 className="footer-title">Visit Our Studio At</h5>
-										<p>Weekly Breaking News Analysis And Cutting Edge <br/>Advices On Job Searching.</p>
-										<form className="subscribe-form m-b20" action="assets/script/mailchamp.php" method="post">
-											<div className="ajax-message"></div>
-											<div className="input-group">
-												<input name="email" required="required" className="form-control" placeholder="Email Address" type="email"/>
-												<div className="input-group-append">
-													<button name="submit" value="Submit" type="submit" className="btn btn-block radius-sm">Subscribe</button>	
-												</div>
-											</div>
-										</form>
-										<ul className="list-inline ft-social-bx">
-											<li><Link to="#" className="btn button-sm"><i className="fa fa-facebook"></i></Link></li>
-											<li><Link to="#" className="btn button-sm"><i className="fa fa-twitter"></i></Link></li>
-											<li><Link to="#" className="btn button-sm"><i className="fa fa-linkedin"></i></Link></li>
-											<li><Link to="#" className="btn button-sm"><i className="fa fa-google-plus"></i></Link></li>
+										<h5 className="footer-title">Visit Our Office At</h5>
+										<p>R# 13/A, H # 27/1(3rd and 4th floor) Dhanmondi, Dhaka <br/></p>
+										<ul style={{marginBottom:'10px'}}>
+										<li className="d-none d-sm-block">
+												<Link to="get-in-touch" className="btn"><span style={{color:"black"}}>Contact Us</span></Link>
+											</li>
+
+											</ul>										<ul className="list-inline ft-social-bx">
+											<li><Link to="#" className="btn button-sm"><i style={{color:"black"}} className="fa fa-facebook"></i></Link></li>
+											<li><Link to="#" className="btn button-sm"><i style={{color:"black"}} className="fa fa-twitter"></i></Link></li>
+											<li><Link to="#" className="btn button-sm"><i style={{color:"black"}} className="fa fa-linkedin"></i></Link></li>
+											<li><Link to="#" className="btn button-sm"><i style={{color:"black"}} className="fa fa-google-plus"></i></Link></li>
 										</ul>
 									</div>
 								</div>

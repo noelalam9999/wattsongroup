@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 // Loyout
-import Header1 from '../layout/header/header1';
+import Header1 from '../layout/header/header2';
 import Footer1 from '../layout/footer/footer1';
 
 // Elements

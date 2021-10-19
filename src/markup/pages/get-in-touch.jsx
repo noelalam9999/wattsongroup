@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
-import Header1 from '../layout/header/header1';
+import Header1 from '../layout/header/header2';
 import Footer1 from '../layout/footer/footer1';
 
 // Elements
@@ -45,10 +45,10 @@ class GetInTouch extends Component {
 								<div className="row">
 									<div className="col-lg-8 col-md-7">
 										<div className="heading-bx">
-											<h6 className="title-ext m-b0">Get In Touch</h6>
+											<h6 style={{color:"black"}} className="title-ext m-b0">Get In Touch</h6>
 											<h3 className="title-head m-b0">Request for Free Conslutation</h3>
 											<div className="ttr-separator sepimg"></div>
-											<p className="head-px2">Our purpose follow leading design, engineering and industrial manufacturing company specialising in mining, oil, gas and engineering services.</p>
+											<p className="head-px2">Wattson Engineering & Consultants Ltd. Is one of the most experienced Organizations who started its operation as a pioneer in the field of HVAC System.</p>
 										</div>
 										<div className="row m-b30">
 											<div className="col-md-12">
@@ -95,39 +95,34 @@ class GetInTouch extends Component {
 																<div className="col-md-12 col-lg-4">
 																	<div className="custom-control custom-checkbox m-b10">
 																		<input type="checkbox" className="custom-control-input" id="customControlAutosizing1" />
-																		<label className="custom-control-label" htmlFor="customControlAutosizing1">Agricultural Engineering</label>
+																		<label className="custom-control-label" htmlFor="customControlAutosizing1">Wattson Engineering</label>
 																	</div>
 																</div>
 																<div className="col-md-12 col-lg-4">
 																	<div className="custom-control custom-checkbox m-b10">
 																		<input type="checkbox" className="custom-control-input" id="customControlAutosizing2"/>
-																		<label className="custom-control-label" htmlFor="customControlAutosizing2">Chemical Research</label>
+																		<label className="custom-control-label" htmlFor="customControlAutosizing2">Wattson Euro Panel</label>
 																	</div>
 																</div>
 																<div className="col-md-12 col-lg-4">
 																	<div className="custom-control custom-checkbox m-b10">
 																		<input type="checkbox" className="custom-control-input" id="customControlAutosizing3"/>
-																		<label className="custom-control-label" htmlFor="customControlAutosizing3">Material Science</label>
+																		<label className="custom-control-label" htmlFor="customControlAutosizing3">Hydrochemical Bangladesh</label>
 																	</div>
 																</div>
 																<div className="col-md-12 col-lg-4">
 																	<div className="custom-control custom-checkbox m-b10">
 																		<input type="checkbox" className="custom-control-input" id="customControlAutosizing4"/>
-																		<label className="custom-control-label" htmlFor="customControlAutosizing4">Mechanical Engineering</label>
+																		<label className="custom-control-label" htmlFor="customControlAutosizing4">Wattson Air-conditioning</label>
 																	</div>
 																</div>
 																<div className="col-md-12 col-lg-4">
 																	<div className="custom-control custom-checkbox m-b10">
 																		<input type="checkbox" className="custom-control-input" id="customControlAutosizing5"/>
-																		<label className="custom-control-label" htmlFor="customControlAutosizing5">Oil and Gas</label>
+																		<label className="custom-control-label" htmlFor="customControlAutosizing5">Fire-Fighting Equipments</label>
 																	</div>
 																</div>
-																<div className="col-md-12 col-lg-4">
-																	<div className="custom-control custom-checkbox m-b10">
-																		<input type="checkbox" className="custom-control-input" id="customControlAutosizing6"/>
-																		<label className="custom-control-label" htmlFor="customControlAutosizing6">Power and Energy</label>
-																	</div>
-																</div>
+															
 															</div>
 														</div>
 														<div className="col-lg-6">
@@ -164,8 +159,8 @@ class GetInTouch extends Component {
 																</div>
 															</div>
 														</div>
-														<div className="col-lg-12">
-															<button name="submit" type="submit" value="Submit" className="btn button-md"> Send Message</button>
+														<div  className="col-lg-12">
+															<button name="submit" type="submit" value="Submit" className="btn button-md"><span style={{color:"black"}}> Send Message</span></button>
 														</div>
 													</div>
 												</form>
@@ -177,18 +172,15 @@ class GetInTouch extends Component {
 											<div className="widget">
 												<h6 className="widget-title">Our Inner Pages</h6>
 												<ul className="service-list style-2">
-													<li><Link to="about-1">About Us <i className="las la-question-circle"></i></Link></li>
-													<li><Link to="services-1">Our Services <i className="las la-cog"></i></Link></li>
-													<li><Link to="awards">Awards<i className="las la-trophy"></i></Link></li>
-													<li><Link to="job-career">Job & Career<i className="las la-user-plus"></i></Link></li>
-													<li><Link to="partners">Partners<i className="las la-handshake"></i></Link></li>
-													<li><Link to="pricing">Pricing<i className="las la-hand-holding-usd"></i></Link></li>
-													<li><Link to="appointment">Appointment<i className="las la-address-card"></i></Link></li>
-													<li><Link to="case-study">Case Study<i className="las la-business-time"></i></Link></li>
-													<li className="active"><Link to="client">Clients<i className="las la-user-circle"></i></Link></li>
-													<li><Link to="faq-1">Faq<i className="las la-quote-left"></i></Link></li>
+													<li><Link to="about-us">About Us <i className="las la-question-circle"></i></Link></li>
+													<li><Link to="wec">Wattson Engineering <i className="las la-cog"></i></Link></li>
+													<li><Link to="wep">Wattson Euro Panel<i className="las la-trophy"></i></Link></li>
+													<li><Link to="hydrochemical-bd">Hydrochemical Bangladesh<i className="las la-user-plus"></i></Link></li>
+													<li><Link to="all-projects">Renowned Projects<i className="las la-handshake"></i></Link></li>
+													<li><Link to="gallery">Gallery<i className="las la-hand-holding-usd"></i></Link></li>
+													
 												</ul>
-												<Link to="get-in-touch" className="btn btn-block m-t20">Get In Touch</Link>
+												
 											</div>
 											<div className="widget">
 												<h6 className="widget-title">Contact Us</h6>
@@ -196,18 +188,19 @@ class GetInTouch extends Component {
 													<li>
 														<img src={Icon1} alt="" className="mCS_img_loaded"/>
 														<h6 className="contact-title">Contact Number</h6>
-														<p>+001 123 456 790 <br/>(02)  3424 44 00</p>
+														<p>+88 02 55000740-3<br/>+88 02 58157757<br/>+8801841326226<br/>+8801841326219</p>
 													</li>
 													<li>
 														<img src={Icon2} alt="" className="mCS_img_loaded"/>
 														<h6 className="contact-title">Email Address</h6>
-														<Link to="#">info@yourdomain.com</Link><br/>
-														<Link to="#">example@support.com</Link>
+														<Link to="#">wattson_engg1@yahoo.com</Link><br/>
+														<Link to="#">wattson_engg2@yahoo.com</Link><br/>
+														<Link to="#">hydrochemical.bd@gmail.com</Link>
 													</li>
 													<li>
 														<img src={Icon3} alt="" className="mCS_img_loaded"/>
 														<h6 className="contact-title">Address</h6>
-														<p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
+														<p>R# 13/A, H # 27/1(3rd and 4th floor) Dhanmondi, Dhaka</p>
 													</li>
 												</ul>
 											</div>
@@ -218,7 +211,7 @@ class GetInTouch extends Component {
 							</div>
 						</div>
 						
-						<div className="section-area section-sp2 bg-white">
+						{/* <div className="section-area section-sp2 bg-white">
 							<div className="container wow fadeIn" data-wow-delay="0.8s">
 								<div className="heading-bx text-center">
 									<h6 className="title-ext m-b0">Our Partner</h6>
@@ -227,7 +220,7 @@ class GetInTouch extends Component {
 								</div>
 								<ClientLogo />
 							</div>
-						</div>
+						</div> */}
 						
 					</div>
 					

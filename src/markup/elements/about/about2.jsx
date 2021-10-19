@@ -11,7 +11,7 @@ import Portimg9 from "../../../images/portfolio/portfolio-1/image_9.jpg"
 import Portimg10 from "../../../images/portfolio/portfolio-1/image_10.jpg"
 
 class About2 extends Component{
-	
+	pabout
 	render(){
 		return(
 			<>

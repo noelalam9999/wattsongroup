@@ -20,6 +20,7 @@ class ProjectsCarousel1 extends Component {
 						
 						<div className="section-area bg-gray">
 							<ProjectSlider4 />
+						
 						</div>
 						
 					</div>

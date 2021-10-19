@@ -30,8 +30,8 @@ table td { padding: 15px 10px; }
 p, address, pre, hr, ul, ol, dl, dd, table { margin-bottom: 24px; }
 ::selection { color: #000; background:#dbdbdb; }
 ::-moz-selection { color:#000; background:#dbdbdb; }
-::-moz-selection { background: #3396d1; color: #fff; }
-::selection { background: #3396d1; color: #fff; }
+::-moz-selection { background: #3396d1; color: #000; }
+::selection { background: #3396d1; color: #000; }
 p { line-height: 28px; margin-bottom: 24px; }
 iframe{border:0;}
 /*=================  
@@ -429,7 +429,7 @@ dl dd { margin-bottom: 10px; }
 /*=================  
 	Text Color
 ====================*/
-.text-white { color: #fff; }
+.text-white { color: #000; }
 .text-black { color: #000; }
 .text-gray { color: #f5f6f6; }
 .text-red { color: #FF4045; }
@@ -442,8 +442,10 @@ dl dd { margin-bottom: 10px; }
 	Text Color
 ====================*/
 .bg-tp { background-color: transparent; }
-.bg-primary { background-color: ; }
-.bg-white { background-color: #FFF; }
+.bg-primary { background-color: #bbf059; }
+.bg-white { background-color: #FFF;
+
+}
 .bg-black { background-color: #000; }
 .bg-gray { background-color: #f4f4f4; }
 .bg-red { background-color: #FF4045; }
@@ -547,7 +549,7 @@ dl dd { margin-bottom: 10px; }
     max-width: 700px;
 }
 .text-white {
-    color: #FFF;
+    color: #fff;
 }
 .text-white h1,
 .text-white h2,
@@ -557,7 +559,7 @@ dl dd { margin-bottom: 10px; }
 .text-white h6,
 .text-white p,
 .text-white .title-small {
-    color: #FFF;
+    color: #fff;
 }
 .mfp-title{
 	display:none;

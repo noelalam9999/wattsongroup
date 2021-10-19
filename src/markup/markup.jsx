@@ -60,6 +60,7 @@ import ShopCheckout from './pages/shop-checkout';
 import ShopDetails from './pages/shop-details';
 import ShopSidebar from './pages/shop-sidebar';
 import SolutionAgriculturalEngineering from './pages/solution-agricultural-engineering';
+import Projects from './pages/projects';
 import SolutionChemicalResearchEngineering from './pages/solution-chemical-research-engineering';
 import SolutionMaterialScienceAndEngineering from './pages/solution-material-science-and-engineering';
 import SolutionMechanicalEngineering from './pages/solution-mechanical-engineering';
@@ -67,7 +68,30 @@ import SolutionOilAndGas from './pages/solution-oil-and-gas';
 import SolutionPowerAndEnergy from './pages/solution-power-and-energy';
 import Team from './pages/team';
 
+import wep from './pages/wep-products';
+import wec from './pages/wec-products';
+import hydrochemicalProducts from './pages/hydrochemical-products';
+import firefightingProducts from './pages/firefighting-products';
+import AirconditioningProducts from './pages/airconditioning-products';
 
+
+import Gallery from './pages/gallery2';
+import SowCogeneration from './pages/sow-cogeneration';
+import SowCompressor from './pages/sow-compressor';
+import SowDehumidifier from './pages/sow-dehumidifier';
+import SowDuctman from './pages/sow-ductman';
+import SowHvac from './pages/sow-hvac';
+import SowHydrochemical from './pages/sow-hydrochemical';
+import SowInsulation from './pages/sow-insulation';
+import SowPUSandwichPanel from './pages/sow-pusandwichpanel';
+import SowSteamboiler from './pages/sow-steamboiler';
+
+import Wep from './pages/wep';
+import Wec from './pages/wec';
+import Hydrochemical from './pages/hydrochemical-bd';
+import Firefighting from './pages/firefighter';
+import Airconditioning from './pages/airconditioning';
+import Wattson from './pages/about-us';
 
 class Markup extends Component{
 	render(){
@@ -124,6 +148,7 @@ class Markup extends Component{
 						<Route path='/projects-single-1' component={ProjectsSingle1} />
 						<Route path='/projects-single-2' component={ProjectsSingle2} />
 						<Route path='/projects-single-3' component={ProjectsSingle3} />
+
 						<Route path='/projects-single-4' component={ProjectsSingle4} />
 						<Route path='/services-1' component={Services1} />
 						<Route path='/services-2' component={Services2} />
@@ -140,8 +165,36 @@ class Markup extends Component{
 						<Route path='/solution-mechanical-engineering' component={SolutionMechanicalEngineering} />
 						<Route path='/solution-oil-and-gas' component={SolutionOilAndGas} />
 						<Route path='/solution-power-and-energy' component={SolutionPowerAndEnergy} />
-						<Route path='/team' component={Team} />					
-						
+						<Route path='/team' component={Team} />	
+
+						<Route path='/projects/:id' component={Projects} />
+
+
+						<Route path='/wep-products' component={wep} />	
+						<Route path='/wec-products' component={wec} />	
+						<Route path='/hydrochemical-products' component={hydrochemicalProducts} />	
+						<Route path='/firefighting-products' component={firefightingProducts} />	
+						<Route path='/airconditioning-products' component={AirconditioningProducts} />	
+
+
+						<Route path='/gallery' component={Gallery} />	
+						<Route path='/sow-cogeneration' component={SowCogeneration} />				
+						<Route path='/sow-compressor' component={SowCompressor} />	
+						<Route path='/sow-dehumidifier' component={SowDehumidifier} />	
+						<Route path='/sow-ductman' component={SowDuctman} />	
+						<Route path='/sow-hvac' component={SowHvac} />	
+						<Route path='/sow-hydrochemical' component={SowHydrochemical} />	
+						<Route path='/sow-insulation' component={SowInsulation} />	
+						<Route path='/sow-pusandwichpanel' component={SowPUSandwichPanel} />	
+						<Route path='/sow-steamboiler' component={SowSteamboiler} />
+
+
+						<Route path='/wep' component={Wep} />
+						<Route path='/wec' component={Wec} />
+						<Route path='/hydrochemical-bd' component={Hydrochemical} />	
+						<Route path='/firefighting-equipment' component={Firefighting} />
+						<Route path='/air-conditioning' component={Airconditioning} />
+						<Route path='/about-us' component={Wattson} />
 					</Switch>
 				</BrowserRouter>
 				

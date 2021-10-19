@@ -244,7 +244,7 @@
 .top-bar {
     background-color: #020d26;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    color: #fff;
+    color: #000;
     padding: 11px 0;
 }
 .topbar-left {
@@ -7833,6 +7833,10 @@ border-top: 1px solid rgba(0,0,0,0.15);
 }
 .portfolio-box.style-3 .portfolio-info .title a,
 .portfolio-box.style-2 .portfolio-info .title a{
+	color:#000;
+}
+.portfolio-box.style-3 .portfolio-info .title1 a,
+.portfolio-box.style-2 .portfolio-info .title1 a{
 	color:#fff;
 }
 .portfolio-box.style-2 .portfolio-info .exe-title{
@@ -10088,4 +10092,12 @@ border-top: 1px solid rgba(0,0,0,0.15);
 
 #SRLLightbox{
 	z-index: 99999;
+}
+.section-sp31{
+	padding-top: 20px!important;
+	
+	
+}
+.section-sp21{
+	padding-bottom: 20px!important;
 }

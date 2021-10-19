@@ -78,17 +78,13 @@ class Header2 extends Component{
 							<div className="row d-flex justify-content-between">
 								<div className="topbar-left">
 									<ul>
-										<li><Link to="#"><i className="la la-phone"></i>Call Us +8802-9145805, 8157757</Link></li>
-										<li><Link to="#"><i className="la la-clock"></i>Mon to Fri - 9:00am - 6:00pm</Link></li>
-										<li><Link to="#"><i className="las la-envelope-open"></i>Support@website.com</Link></li>
+										<li><Link to="+88029145805"><i className="la la-phone"></i>Call Us +8801841326226, +88 02 55000740-3</Link></li>
+										<li><Link to="#"><i className="la la-clock"></i>Saturday to Thursday - 9:00am - 6:00pm</Link></li>
+										<li><Link to="wattson_engg1@yahoo.com"><i className="las la-envelope-open"></i>wattson_engg1@yahoo.com</Link></li>
 									</ul>
 								</div>
 								<div className="topbar-right">
-									<ul>
-										<li><Link to="company-history">History</Link></li>
-										<li><Link to="blog-standard">News</Link></li>
-										<li><Link to="contact-1">Contact Us</Link></li>
-									</ul>
+								
 								</div>
 							</div>
 						</div>
@@ -155,8 +151,8 @@ class Header2 extends Component{
 													</li>
 												</ul>
 											</li>
-											<li className="d-none d-sm-block">
-												<Link to="get-in-touch" className="btn">Get In Touch</Link>
+											<li  className="d-none d-sm-block">
+												<a href="/get-in-touch" className="text-black btn"><span style={{color:"black"}}>Contact Us</span></a>
 											</li>
 										</ul>
 									</div>
@@ -167,97 +163,142 @@ class Header2 extends Component{
 										<Link to="/"><img src={Logo1} alt=""/></Link>
 									</div>
 									<ul className="nav navbar-nav">	
-										<li className="active"><Link to="#">Home</Link>
+										<li className="active"><Link to="/">Home</Link>
 										
-										</li>
-										<li className=""><Link to="#">Scope of Work<i className="fa fa-chevron-down"></i></Link>
-										<ul className="sub-menu">
-												<li className="add-menu-left">
-													<ul>
-														<li><Link to="solution-agricultural-engineering"><span>HVAC System</span> </Link></li>
-														<li><Link to="solution-chemical-research-engineering"><span>Co-generation</span></Link></li>
-														<li><Link to="solution-material-science-and-engineering"><span>Steam Boiler</span></Link></li>
-														<li><Link to="solution-mechanical-engineering"><span>(De)Humidification</span></Link></li>
-														<li><Link to="solution-oil-and-gas"><span>Sandwich panel</span></Link></li>
-														<li><Link to="solution-power-and-energy"><span>Duct Manufacturing, Supply and Installation</span></Link></li>
-														<li><Link to="solution-power-and-energy"><span>Hydrochemical</span></Link></li>
-														
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li><Link to="#">Products<i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu">
-												<li className="add-menu-left">
-													<ul>
-														<li><Link to="solution-agricultural-engineering"><span>Agricultural Engineering</span> </Link></li>
-														<li><Link to="solution-chemical-research-engineering"><span>Chemical Research Engineering</span></Link></li>
-														<li><Link to="solution-material-science-and-engineering"><span>Material Science and Engineering</span></Link></li>
-														<li><Link to="solution-mechanical-engineering"><span>Mechanical Engineering</span></Link></li>
-														<li><Link to="solution-oil-and-gas"><span>Oil and Gas</span></Link></li>
-														<li><Link to="solution-power-and-energy"><span>Power and Energy</span></Link></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li className="has-mega-menu "><Link to="#">Projects <i className="fa fa-chevron-down"></i></Link>
-											<ul className="mega-menu">
-												<li><Link to="#">Projects Grid</Link>
-													<ul>
-														<li><Link to="projects-grid-2"><span>Projects Grid 2</span></Link></li>
-														<li><Link to="projects-grid-3"><span>Projects Grid 3</span></Link></li>
-														<li><Link to="projects-grid-4"><span>Projects Grid 4</span></Link></li>
-														<li><Link to="projects-grid-wide"><span>Projects Grid Wide</span></Link></li>
-													</ul>
-												</li>
-												<li><Link to="#">Projects Masonry</Link>
-													<ul>
-														<li><Link to="projects-masonry-grid-2"><span>Masonry Grid 2</span></Link></li>
-														<li><Link to="projects-masonry-grid-3"><span>Masonry Grid 3</span></Link></li>
-														<li><Link to="projects-masonry-grid-4"><span>Masonry Grid 4</span></Link></li>
-														<li><Link to="projects-masonry-grid-wide"><span>Masonry Grid Wide</span></Link></li>
-													</ul>
-												</li>
-												<li><Link to="#">Projects Style</Link>
-													<ul>
-														<li><Link to="projects-carousel-1"><span>Projects Carousel 1</span></Link></li>
-														<li><Link to="projects-carousel-2"><span>Projects Carousel 2</span></Link></li>
-														<li><Link to="projects-carousel-3"><span>Projects Carousel 3</span></Link></li>
-														<li><Link to="projects-carousel-4"><span>Projects Carousel 4</span></Link></li>
-													</ul>
-												</li>
-												<li><Link to="#">Projects Single</Link>
-													<ul>
-														<li><Link to="projects-single-1"><span>Projects Single 1</span></Link></li>
-														<li><Link to="projects-single-2"><span>Projects Single 2</span></Link></li>
-														<li><Link to="projects-single-3"><span>Projects Single 3</span></Link></li>
-														<li><Link to="projects-single-4"><span>Projects Single 4</span></Link></li>
-													</ul>
-												</li>
-											</ul>
 										</li>
 										<li><Link to="#">Concerns<i className="fa fa-chevron-down"></i></Link>
 											<ul className="sub-menu">
 												<li className="add-menu-left">
 													<ul>
-														<li><Link to="shop"><span>Wattson Engineering and Consultants Ltd</span> </Link></li>
-														<li><Link to="shop-sidebar"><span>Wattson Euro Panel Industries Ltd</span></Link></li>
-														<li><Link to="shop-cart"><span>Hydro Chemical Bangladesh</span></Link></li>
-														<li><Link to="shop-checkout"><span>Wattson Fire figting equipments and Safety Co</span></Link></li>
-														<li><Link to="shop-details"><span>Wattson Air-conditioning Ltd</span></Link></li>
-														<li><Link to="shop-details"><span>Wattson Automobiles Ltd</span></Link></li>
-														<li><Link to="shop-details"><span>Nabiha Textile Mills Ltd</span></Link></li>
-														<li><Link to="shop-details"><span>Z-power Technology</span></Link></li>
-														<li><Link to="shop-details"><span>Simi Ad Com</span></Link></li>
-									
+														<li><Link to="wec"><span>Wattson Engineering and Consultants Ltd</span> </Link></li>
+														<li><Link to="wep"><span>Wattson Euro Panel Industries Ltd</span></Link></li>
+														<li><Link to="hydrochemical-bd"><span>Hydro Chemical Bangladesh</span></Link></li>
+														<li><Link to="air-conditioning"><span>Wattson Air-conditioning Ltd</span></Link></li>
+														<li><Link to="firefighting-equipment"><span>Wattson Fire figting equipments and Safety Co</span></Link></li>
+														
+														<li><Link to="air-conditioning"><span>Simi Ad-Com</span></Link></li>
+														<li><Link to="air-conditioning"><span>Wattson Automobiles</span></Link></li>
+														<li><Link to="air-conditioning"><span>Z-Power Technology</span></Link></li>
 													</ul>
 												</li>
 											</ul>
 										</li>
-										<li><Link to="#">Gallery </Link>
+										<li className=""><Link to="#">Scope of Work<i className="fa fa-chevron-down"></i></Link>
+										<ul className="sub-menu">
+												<li className="add-menu-left">
+													<ul>
+														<li><Link to="sow-hvac"><span>HVAC System</span> </Link></li>
+														<li><Link to="sow-cogeneration"><span>Co-generation</span></Link></li>
+														<li><Link to="sow-steamboiler"><span>Steam Boiler</span></Link></li>
+														<li><Link to="sow-dehumidifier"><span>(De)Humidification</span></Link></li>
+														<li><Link to="sow-pusandwichpanel"><span>PU Sandwich panel</span></Link></li>
+														<li><Link to="sow-ductman"><span>Duct Manufacturing, Supply and Installation</span></Link></li>
+														<li><Link to="sow-hydrochemical"><span>Hydrochemical</span></Link></li>
+														<li><Link to="sow-compressor"><span>Compressor</span></Link></li>
+														<li><Link to="sow-insulation"><span>Insulation</span></Link></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li ><Link to="#">Products<i className="fa fa-chevron-down"></i></Link>
+										<ul className="sub-menu">
+												<li className="add-menu-left">
+													<ul>
+														<li><Link to="wec-products"><span>Wattson Engineering</span> </Link></li>
+														<li><Link to="wep-products"><span>Wattson Euro Panel </span></Link></li>
+														<li><Link to="hydrochemical-products"><span>Hydrochemical Bangladesh</span></Link></li>
+														<li><Link to="airconditioning-products"><span>Wattson Air-conditioning</span></Link></li>
+														<li><Link to="firefighting-products"><span>Wattson Fire-Fighting</span></Link></li>
+													
+													</ul>
+												</li>
+											</ul>
 										
 										</li>
-										<li><Link to="#">About Us</Link>
+										<li className="has-mega-menu "><Link to="#">Projects <i className="fa fa-chevron-down"></i></Link>
+										
+											<ul className="mega-menu">
+										
+												<li><Link to="#">Wattson Engineering</Link>
+													<ul>
+														<li><Link to="/projects/3"><span>Cox's Bazar Railway Station</span></Link></li>
+														<li><Link to="/projects/10"><span>Union Tower</span></Link></li>
+														<li><Link to="/projects/17"><span>Dutch Bangla Tower</span></Link></li>
+														<li><Link to="/projects/15"><span>Rupayan Shopping Square</span></Link></li>
+														
+														<li><Link to="/projects/44"><span>Grand Sultan Tea Resort</span></Link></li>
+														<li><Link to="/projects/14"><span>Royal Tulip Resort</span></Link></li>
+														<li><Link to="/projects/13"><span>World Trade Center</span></Link></li>
+														<li><Link to="/projects/5"><span>DPS STS School</span></Link></li>
+														<li><Link to="/projects/18"><span>Green Life Hospital</span></Link></li>
+														
+														<li><Link to="/projects/4"><span>Hotel Grand Park</span></Link></li>
+														<li><Link to="/projects/2"><span>Badsha Group</span></Link></li>
+														<li><Link to="/projects/3"><span>N.R. Group</span></Link></li>
+														<li><Link to="/projects/45"><span>Envoy Group</span></Link></li>
+														<li><Link to="/projects/3"><span>Square Fashion Ltd</span></Link></li>
+														<li><Link to="/projects/46"><span>Echo Tex Ltd</span></Link></li>
+														<li><Link to="/projects/16"><span>Square Denim Ltd</span></Link></li>
+													</ul>
+													
+													
+													
+												</li>
+												<li><Link to="#">Wattson Euro-panel</Link>
+													<ul>
+														<li><Link to="/projects/29"><span>Ruppur Nuclear Power Plant</span></Link></li>
+														<li><Link to="/projects/33"><span>Beximco Pharma Ltd</span></Link></li>
+														<li><Link to="/projects/43"><span>Incepta Pharma Ltd</span></Link></li>
+														<li><Link to="/projects/34"><span>Popular Pharma Ltd</span></Link></li>
+														<li><Link to="/projects/35"><span>Essential Drugs Company</span></Link></li>
+														<li><Link to="/projects/36"><span>Square Pharma Ltd</span></Link></li>
+														<li><Link to="/projects/37"><span>Orion Pharma Ltd</span></Link></li>
+														<li><Link to="/projects/38"><span>Labaid Pharma Ltd</span></Link></li>
+														<li><Link to="/projects/30"><span>Navana Pharma Ltd</span></Link></li>
+														<li><Link to="/projects/31"><span>JMI PharmaLtd</span></Link></li>
+
+														<li><Link to="/projects/40"><span>BFDC</span></Link></li>
+														<li><Link to="/projects/42"><span>Milk Vita Bangladesh</span></Link></li>
+														<li><Link to="/projects/41"><span>Ifad Multi products Ltd</span></Link></li>
+														<li><Link to="/projects/47"><span>Meghna Beverage</span></Link></li>
+														<li><Link to="/projects/48"><span>Akij Food and beverage</span></Link></li>
+														<li><Link to="/projects/"><span>Dan Food</span></Link></li>
+													
+
+													</ul>
+												</li>
+												<li><Link to="#">Hydrochemical</Link>
+													<ul>
+														<li><Link to="/projects/2"><span>Badsha Group</span></Link></li>
+														<li><Link to="/projects/49"><span>Pioneer Denim Ltd</span></Link></li>
+														<li><Link to="/projects/50"><span>Square Fashions Ltd</span></Link></li>
+														<li><Link to="/projects/"><span>Sinha Group</span></Link></li>
+														<li><Link to="/projects/"><span>Paramount Textiles</span></Link></li>
+														<li><Link to="/projects/14"><span>Royal Tulip Resort</span></Link></li>
+														<li><Link to="/projects/44"><span>Grand Sultan Tea Resort</span></Link></li>
+														<li><Link to="/projects/13"><span>World Trade Center</span></Link></li>
+														<li><Link to="/projects/18"><span>Green Life Hospital</span></Link></li>
+														<li><Link to="/projects/19"><span>Green Delta Aims Tower</span></Link></li>
+
+														<li><Link to="/projects/53"><span>Mithela Group</span></Link></li>
+														<li><Link to="/projects/51"><span>N.R. Group</span></Link></li>
+														<li><Link to="/projects/45"><span>Envoy Group</span></Link></li>
+														<li><Link to="/projects/52"><span>Aman Group</span></Link></li>
+														<li><Link to="/projects/46"><span>Echotex Ltd</span></Link></li>
+														<li><Link to="/projects/16"><span>Square Denim Ltd</span></Link></li>
+														
+
+													</ul>
+												</li>
+											
+											</ul>
+											
+										</li>
+									
+										<li><Link to="gallery">Gallery </Link>
+										
+										</li>
+										<li><Link to="about-us">About Us</Link>
 										
 										</li>
 									</ul>
@@ -265,7 +306,7 @@ class Header2 extends Component{
 										<Link to="#"><i className="fa fa-facebook"></i></Link>
 										<Link to="#"><i className="fa fa-google-plus"></i></Link>
 										<Link to="#"><i className="fa fa-linkedin"></i></Link>
-									</div>
+									</div>  
 								</div>
 								{/* <!-- Navigation Menu END ==== --> */}
 							</div>
@@ -305,7 +346,7 @@ class Header2 extends Component{
 								<p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
 							</li>
 						</ul>
-						<h4 className="title">Get In Touch</h4>
+						<h4 className="title">Contact Us</h4>
 						<form className="contact-bx ajax-form" action="script/contact.php">
 							<div className="ajax-message"></div>
 							<div className="row placeani">

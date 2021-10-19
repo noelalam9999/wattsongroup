@@ -1,7 +1,7 @@
 /*===================== 	Premery bg color =====================*/
 
 :root {
-    --primary: #fe5a0e;
+    --primary: #bbf059;
     --sc-primary: #e94a00;
 }
 
@@ -23,7 +23,7 @@
 .pagination-bx.primary .pagination > li > span,
 button.back-to-top,
 .slider-one .slider-item .sub-title{
-    background-color: #fe5a0e;
+    background-color: #bbf059;
 }
 
 
@@ -53,7 +53,7 @@ button.back-to-top,
 .pagination-bx.primary .pagination > li > span:hover,
 .pagination-bx.primary .pagination > li.active > span,
 .pagination-bx.primary .pagination > li.active > a {
-    background-color: #e94a00;
+    background-color: #bbf059;
 }
 
 
@@ -90,7 +90,7 @@ h5 a:hover,
 h6 a:hover,
 .btn.outline,
 .btn-link:hover {
-    color: #fe5a0e;
+    color: #e94a00;
 }
 
 
@@ -104,14 +104,14 @@ h6 a:hover,
 /*===================== 	Secondery text color =====================*/
 
 .text-secondry {
-    color: #e94a00;
+    color: #bbf059;
 }
 
 .ovpr-light:after,
 .ovpr-middle:after,
 .ovpr-dark:after,
 .ovpr:after{
-    background-color: #ff5e14;
+    background-color: #bbf059;
 }
 
 .ttr-notify-header::after,
@@ -122,9 +122,9 @@ h6 a:hover,
 .account-head:after {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#424bff+0,fe5a0e+100 */
 	background: #424bff; /* Old browsers */
-	background: -moz-linear-gradient(top, #424bff 0%, #fe5a0e 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #424bff 0%,#fe5a0e 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #424bff 0%,#fe5a0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top, #424bff 0%, #bbf059 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #424bff 0%,#bbf059 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #424bff 0%,#bbf059 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424bff', endColorstr='#fe5a0e',GradientType=0 ); /* IE6-9 */
     /* IE6-9 fallback on horizontal gradient */
 }
@@ -134,7 +134,7 @@ h6 a:hover,
 .btn:active,
 .btn:focus,
 .btn:hover{
-    background-color: #e94a00;
+    background-color: #bbf059;
 }
 
 
@@ -151,20 +151,20 @@ h6 a:hover,
 .header-transparent .secondary-menu .btn-link:hover,
 .header-transparent .menu-links .nav > li:hover > a,
 .header-transparent .menu-links .nav > li.active > a{
-    color: #e94a00;
+    color: #bbf059;
 }
 button.back-to-top:hover{
-    background-color: #fe5a0e;
+    background-color: #bbf059;
     color: #fff;
 }
 
 .heading-bx.left .title-head {
-    border-color: #e94a00;
+    border-color: #bbf059;
 }
 
 .text-primary{
-	color: #fe5a0e!important;
+	color: #bbf059!important;
 }
 .bg-primary{
-	background-color: #fe5a0e!important;
+	background-color: #bbf059!important;
 }

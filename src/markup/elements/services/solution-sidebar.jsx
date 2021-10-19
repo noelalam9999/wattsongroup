@@ -12,7 +12,7 @@ class SolutionSidebar extends Component{
 		return(
 			<>
 				<aside className="sticky-top">
-					<div className="widget">
+					{/* <div className="widget">
 						<ul className="service-list">
 							<li className="active">
 								<Link to="solution-agricultural-engineering"><span>Agricultural Engineering</span>
@@ -39,20 +39,20 @@ class SolutionSidebar extends Component{
 								<i className="fa fa-angle-right"></i></Link>
 							</li>
 						</ul>
-					</div>
+					</div> */}
 					<div className="widget">
 						<div className="brochure-bx">
 							<h5 className="title-head">Download</h5>
-							<Link to="#" className="download-link">
+							<a href="https://4html.net/PDFViewer/#/source/All_Catalog.pdf" className="download-link">
 								<img src={IconPdf} alt=""/>
-								<h5 className="title">Download our Brochures</h5>
+								<h5 className="title">Our Catalog</h5>
 								<span>Download</span>
-							</Link>
-							<Link to="#" className="download-link">
+							</a>
+							{/* <Link to="#" className="download-link">
 								<img src={IconDoc} alt=""/>
 								<h5 className="title">Our Company Details</h5>
 								<span>Download</span>
-							</Link>
+							</Link> */}
 						</div>
 					</div>
 					<div className="widget">
@@ -62,9 +62,9 @@ class SolutionSidebar extends Component{
 							</div>
 							<div className="info text-white">
 								<img src={HeadPhones} alt=""/>
-								<h5 className="title">How Can We Help</h5>
-								<p>If you need any helps, please free to contact us.</p>
-								<a href="contact-1.html" className="btn-secondry">Contact Us</a>
+								<h5 style={{color:"black"}} className="title">How Can We Help</h5>
+								<p style={{color:"black"}}>If you need any helps, please free to contact us.</p>
+								<a href="/get-in-touch" className="btn-secondry">Contact Us</a>
 							</div>
 						</div>
 					</div>

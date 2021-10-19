@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 
 // Images
-import Image1 from "../../../images/slider/slide5.jpg"
+import Image1 from "../../../images/slider/slide9.jpg"
 import Image2 from "../../../images/slider/slide6.jpg"
 
 class Slider2 extends Component{
@@ -28,9 +28,9 @@ class Slider2 extends Component{
 						<div className="slider-content text-center text-white">
 							<div className="container">
 								<div className="content-inner">
-									<h6 className="sub-title">Wattson Group</h6>
-									<h2 className="title">Where Quality<br/>Meets Efficiency</h2>
-									<a className="btn primary" href="/contact-1">Contact Us</a>
+									<h6 className="sub-title"><div style={{color:'green!important'}}>Wattson</div><span> Group</span></h6>
+									<h2 className="title">Saves Energy<br/>Increases Longevity</h2>
+									<a className="btn primary" href="/contact-1">< span className="text-black">View Projects</span></a>
 								</div>
 							</div>
 						</div>

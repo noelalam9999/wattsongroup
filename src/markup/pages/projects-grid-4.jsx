@@ -44,7 +44,7 @@ class ProjectGrid4 extends Component {
 							</div>
 						</div>
 						
-						<div className="section-area section-sp2 bg-gray">
+						{/* <div className="section-area section-sp2 bg-gray">
 							<div className="container wow fadeIn" data-wow-delay="0.8s">
 								<div className="heading-bx text-center">
 									<h6 className="title-ext m-b0">Projects View</h6>
@@ -53,7 +53,7 @@ class ProjectGrid4 extends Component {
 								</div>
 								<ProjectSlider1 />
 							</div>
-						</div>
+						</div> */}
 						
 						
 					</div>
