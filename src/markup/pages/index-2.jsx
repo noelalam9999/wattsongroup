@@ -129,31 +129,34 @@ class Index2 extends Component {
 											<h6 className="m-b0">Welcome to </h6>
 											<h2 className="title-head m-b0">Wattson Group</h2>
 											<div className="ttr-separator sepimg"></div>
-											<p className="head-px2">We are Highly experienced for Standard Design, Supply, Installation,Testing & Commissioning with consulting service for the composite project in the field of</p>
+											<p className="head-px2">We are Highly experienced for Standard Design, Supply, Installation,Testing & Commissioning with consulting service for:  </p>
 										</div>
 										<div className="row m-b10">
 											<div className="col-md-6">
 												<ul className="list-check primary fs18">
-													<li>HVAC (Central Air Conditioning System)  in Hotel & Resort,<br/> Hospital & O.T. , <br/> Chemical & Pharmaceutical,<br/> Garment, Textile and Spinning Industry,<br/> Highrise Building etc.</li>
+													<li>HVAC (Central Air Conditioning System)  in Hotel & Resort,<br/> Hospital & O.T. , <br/> Chemical & Pharmaceutical,<br/> Garment, Textile and Spinning Industry,<br/> Commercial High-rise Building etc.</li>
 													
 													<li>Pre-fabricated PU Sandwich Panel and PU pre-insulated Pipe manufacturer.</li>
 													<li>Variable Refrigerant Flow (VRF) Air-conditioning System. </li>
-													<li>Spiral and Rectangular Duct Manufacturer (ASHRAE and SMACNA standard).</li>
-													<li>Pre-fabricated PU Sandwich Panel and PU pre-insulated Pipe manufacturer.</li>
-											
+													<li><span style={{color:"orange",fontWeight:"bold"}}>Manufacturer of</span> Spiral and Rectangular Duct (ASHRAE and SMACNA standard).</li>
+													<li><span style={{color:"orange",fontWeight:"bold"}}>Manufacturer of</span> Pre-fabricated PU Sandwich Panel and PU pre-insulated Pipe</li>
+													<li>Chiller Plant-manager, BMS and Inverter/VFD System. </li>
 												</ul>
 											</div>
 											<div className="col-md-6">
 												<ul className="list-check primary fs18">
 												
 													<li>Cogeneration, Chilling & Humidification plant. </li>
-													<li>Dehumidification System(Garments and Pharmaceuticals).</li>
-													<li>Clean Room(Food and Pharmaceuticals).</li>
-													<li>Water Softner and Water Treatment plant, RO system and Descaling for all the above systems.</li>
+													<li>Dehumidification System(Garments Dry room and Pharmaceuticals).</li>
+													<li>Clean Room (Food and Pharmaceuticals).</li>
+													<li>Water Softner and Water Treatment plant, RO system and De-scaling for all the above systems.</li>
 													<li>Cold Room & Cold Storage.</li>
 													<li>Meat & Fish processing plant.</li>
-													<li>Plant Manager BMS and Inverter System. </li>
-													<li>Super-shop All-Solution(Air Conditioning, Fish-Meat-Chiller, Fruit and Vegetable Chiller, Beverage Chiller and Frozen Chiller, Ice-Flake Machine, Gondola etc) </li>
+												
+													<li>Ice-Making Plant, Central Fish And Meat Storage Plant</li>
+													<li>Dry Fish Processing Plant</li>
+													
+													<li>Super-shop-all Solution - Air Conditioning and Cold Room, Fish, Meat, Beverage, Fruits, Vegetable, Dairy and Frozen Chiller.  Ice-Flake Machine, Gondola etc) </li>
 												</ul>
 											</div>
 										</div>
